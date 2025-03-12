@@ -2,6 +2,14 @@
   "name": "lodash",
   "version": "1.0.0",
   "description": "There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.",
+  "homepage": "https://github.com/Lcarter200183/Lodash#readme",
+  "bugs": {
+    "url": "https://github.com/Lcarter200183/Lodash/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lcarter200183/Lodash.git"
+  },
   "license": "ISC",
   "author": "",
   "type": "module",
@@ -285,10 +293,7 @@
     "vary": "^1.1.2",
     "watchpack": "^2.4.2",
     "wbuf": "^1.7.3",
-    "webpack": "^5.98.0",
-    "webpack-cli": "^6.0.1",
     "webpack-dev-middleware": "^7.4.2",
-    "webpack-dev-server": "^5.2.0",
     "webpack-merge": "^6.0.1",
     "webpack-sources": "^3.2.3",
     "websocket-driver": "^0.7.4",
@@ -299,5 +304,9 @@
     "yallist": "^3.1.1",
     "yocto-queue": "^0.1.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  }
 }
